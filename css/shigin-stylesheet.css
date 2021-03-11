@@ -1,0 +1,95 @@
+body{
+    background: #B3B3B3;
+    font-size: 150%;
+    margin: 4%;
+}
+
+header{
+    background: #666666;
+    text-align: center;
+    padding: 15px;
+}
+
+header, footer{
+	background: #666666;
+	background: -moz-linear-gradient(top, #666666 0%, #00b7ea 100%);
+	background: -webkit-linear-gradient(#666666 0%, #00b7ea 100%);
+	background: -o-linear-gradient(#666666 0%, #00b7ea 100%);
+	background: linear-gradient(#666666 0%, #00b7ea 100%); 
+
+}
+
+nav{
+    font-variant: small-caps;
+    font-size: 150%;
+    font-family: Arial, "Times New Roman", serif;
+}
+
+nav a{
+    display: inline-block;
+    width: 22%;
+    background: clear;
+}
+
+nav a:hover{
+    background: #FFFFFF;
+}
+
+/*Takes up half of width of screen*/
+.half{
+    width: 45%;
+    margin-right: 2%;
+    display: inline-block;
+    float: left;
+}
+
+/*Takes up whole width of screen*/
+.whole{
+    clear: both;
+}
+
+figure{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+img.scaled{
+    width: 80%;
+    border-style: ridge;
+    border-radius: 20%;
+    -webkit-transform:   
+}
+
+img.rotate90{
+    rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg); 
+}
+
+h1{
+    color: #FFFFFF;
+}
+h2{
+    color: #666;
+    background: #00B7EA;
+}
+
+details{
+    font-style: italic;
+}
+summary{
+    font-style: normal;
+}
+
+footer{
+    /*clear: both;*/
+    clear: both;
+    text-align: center;
+}
+
+img{
+    width: 125px;
+}
